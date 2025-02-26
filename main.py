@@ -8,6 +8,7 @@ def do():
         _, frame = cam.read()
         frame=Detecctor.detect(frame,drawing=True)
         Listofln=Detecctor.positon(frame)
+        # same in every code
         font = cv2.FONT_HERSHEY_SIMPLEX 
         x=50
         y=50
